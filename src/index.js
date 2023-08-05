@@ -1,5 +1,11 @@
-import { fetchBreeds, fetchCatByBreed } from './js/cat-api'
-const errorMsg = 'Oops! Something went wrong! Try reloading the page!'
+import Notiflix from 'notiflix';
+import { fetchBreeds, fetchCatByBreed } from './js/cat-api';
+import SlimSelect from 'slim-select';
+import 'slim-select/dist/slimselect.css';
+
+
+const errorMsg = 'Oops! Something went wrong! Try reloading the page!';
+
 
 function markupCardCats(breeds) {
     const markup = breeds.map(({ url, breeds: [{ name, temperament, description, wikipedia_url }], }) => {
