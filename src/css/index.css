@@ -11,7 +11,7 @@ a {
 }
 
 body {
-  padding: 0 20px;
+  padding: 0 150px;
 }
 
 .ss-main.breed-select {
@@ -28,7 +28,7 @@ body {
 }
 
 .cat-info__box {
-  max-width: calc(100% - 600px);
+  max-width: 666px;
 }
 
 .cat-info__tittle {
@@ -61,7 +61,7 @@ body {
 .loader {
   position: absolute;
   top: 10%;
-  left: 40%;
+  left: 49%;
   transform: translateX(-50%) translateY(-50%);
   width: 4px;
   height: 4px;
